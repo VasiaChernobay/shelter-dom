@@ -1,0 +1,165 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-grow: 1;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.navbar__menu {
+  justify-content: center;
+  gap: 25px;
+}
+
+.title__title {
+  color: #F1CDB3;
+  font-size: 24px;
+}
+
+.menu__item__link {
+  color: #CDCDCD;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+.menu__item__link_active {
+  border-bottom: 5px solid #F1CDB3;
+  color: white;
+}
+
+.button {
+  border: 1px #F1CDB3 solid;
+  border-radius: 50px;
+  background: #F1CDB3;
+  padding: 20px;
+}
+
+.h1-p-button__title {
+  color: white;
+  font-family: Georgia;
+  font-size: 32px;
+}
+
+.first-block {
+  background: url("../image/start-screen-gradient-background.png") no-repeat center;
+  background-size: cover;
+}
+
+.h1-p-button__text {
+  color: white;
+  width: 30%;
+}
+
+.h1-p-button > * {
+  margin-bottom: 10px;
+}
+
+.first-block {
+  min-height: 450px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.first-block::before {
+  content: '';
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url("../image/start-screen-puppy.png") no-repeat center;
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+}
+
+.header-title-subtitle__title {
+  color: #F1CDB3;
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.header-title-subtitle__subtitle {
+  color: white;
+  font-size: 15px;
+}
+
+.margin_bottom_100px {
+  margin-bottom: 100px;
+}
+
+.margin_bottom_50px {
+  margin-bottom: 50px;
+}
+
+.button_margin-top {
+  margin-top: 30px;
+}
+
+.text-h2-title_width {
+  width: 25%;
+}
+
+.text-h2-title__text {
+  font-family: Arial;
+  color: #4C4C4C;
+  margin: 15px;
+}
+
+.text-h2-title__h2-title {
+  font-family: Georgia;
+  font-size: 33px;
+  color: #4C4C4C;
+}
+
+.justify-content_center {
+  justify-content: center;
+}
+
+.gap-100px {
+  gap: 50px;
+}
+
+.h2-title {
+  font-family: Georgia;
+  font-size: 33px;
+  color: #4C4C4C;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.button_without_background {
+  background: white;
+}
+
+.button_cyrcle {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 0 5px 2px;
+}
+
+.margin_auto {
+  margin: auto;
+}
+
+.displ_block {
+  display: block;
+}
+
+.no_wrap {
+  flex-wrap: nowrap;
+}
+
+.dd1 {
+  fill: red;
+}
